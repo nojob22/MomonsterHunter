@@ -1,0 +1,11 @@
+/* 画面幅が768px未満の場合に適用するスタイル */
+@media (max-width: 768px) {
+
+}
+
+/* 画面幅が768px以上の場合に適用するスタイル */
+@media (min-width: 769px) {
+  .mobile-tabs {
+    display: none; /* タブを非表示 */
+  }
+}
